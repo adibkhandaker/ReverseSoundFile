@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reversesoundfile.ReverseController">
+   <children>
+      <Button layoutX="90.0" layoutY="129.0" mnemonicParsing="false" onAction="#uploadFile" prefHeight="109.0" prefWidth="180.0" text="Upload FIle (.dat File)" />
+      <Button layoutX="339.0" layoutY="129.0" mnemonicParsing="false" onAction="#reverseAndSave" prefHeight="109.0" prefWidth="180.0" text="Reverse and Save FIle" />
+      <Label fx:id="sampleLabel" layoutX="90.0" layoutY="263.0" />
+      <Label fx:id="warningLabel" layoutX="339.0" layoutY="255.0" />
+      <Label fx:id="doneLabel" layoutX="285.0" layoutY="331.0" prefHeight="17.0" prefWidth="40.0" />
+      <ImageView fitHeight="115.0" fitWidth="119.0" layoutX="372.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@9104279_download_save_down_file_folder_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="119.0" layoutX="123.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@9104281_upload_file_folder_data_document_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
